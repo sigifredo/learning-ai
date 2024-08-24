@@ -1,18 +1,12 @@
 #!/bin/env python
 
-import numpy as np
+
+import keras as kr
 import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf
+import os
 
-'''
-from keras import layers, models
-from keras.utils import to_categorical
-from keras.datasets import mnist
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Esto muestra solo errores fatales
 
-(train_data, train_data), (test_data, test_labels) = mnist.load_data()
-'''
-
-from keras import backend as K
-print(K.backend())
-
-# import keras
-# print(keras.__version__)
+print("==> GPUs disponibles:", tf.config.list_physical_devices('GPU'))

@@ -5,7 +5,7 @@ Configurar mi entorno virtual:
 ```console
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ pip install -U numpy matplotlib keras tensorflow
+$ pip install -U numpy matplotlib keras tensorflow[and-cuda]
 ```
 
 ## Configurar backend de Keras
