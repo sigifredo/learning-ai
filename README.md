@@ -1,4 +1,4 @@
-# Intro RRNN
+# Introducción a Deep Learning
 
 Configurar mi entorno virtual:
 
@@ -19,4 +19,10 @@ Para configurar el backend con Tensorflow, debemos abrir el archivo `~/.keras/ke
     "floatx": "float32",
     "image_data_format": "channels_last"
 }
+```
+
+## Obtener el directorio de caché de pip
+
+```console
+$ pip cache info
 ```
